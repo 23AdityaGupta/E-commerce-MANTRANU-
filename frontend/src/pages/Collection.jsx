@@ -10,6 +10,7 @@ const Collection = () => {
   const [showFilters, setShowFilter] = useState(false)
   const [filterProducts, setFilterProducts] = useState([])
   const [category, setCategory] = useState([])
+  
   const [subcategory, setSubCategory] = useState([])
   const { products, search } = useContext(ShopContext)
 
